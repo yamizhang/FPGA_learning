@@ -1,0 +1,45 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity tx_part is
+port(	clk:in std_logic;
+		cs:in std_logic;
+		miso:out std_logic);
+end tx_part;
+
+architecture behave of tx_part is
+signal data_tx:std_logic_vector(16 downto 0):="1000000010000000";--8080
+begin
+	process(clk,cs)
+	if(cs='1')then
+		if(clk'event and clk='1')then
+			case a is
+				when 0=>mosi<=data_rx(15);
+				when 1=>mosi<=data_rx(14);
+				when 2=>mosi<=data_rx(13);
+				when 3=>mosi<=data_rx(12);
+				when 4=>mosi<=data_rx(11);
+				when 5=>mosi<=data_rx(10);
+				when 6=>mosi<=data_rx(9);
+				when 7=>mosi<=data_rx(8);			
+				when 8=>mosi<=data_rx(7);
+				when 9=>mosi<=data_rx(6);
+				when 10=>mosi<=data_rx(5);
+				when 11=>mosi<=data_rx(4);	
+				when 12=>mosi<=data_rx(3);
+				when 13=>mosi<=data_rx(2);
+				when 14=>mosi<=data_rx(1);
+				when 15=>mosi<=data_rx(0);
+				when others=>null;
+			end case;
+			if(a<15)then
+				a:=a+1;
+			else 
+				a:=0;
+			end if;
+		end if;
+	else 
+		a:=0;
+	end if;
+end process;

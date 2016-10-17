@@ -1,0 +1,150 @@
+# Reading F:/Quartus II 12.0/altera/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# vsim +altera -do spi_pro_run_msim_rtl_vhdl.do -l msim_transcript -gui II 12.0/altera/modelsim/modelsim_ase/win32aloem/vish.exe\} 
+# ** Error: (vsim-3170) Could not find 'F:\Quartus II 12.0\Project\spi_pro\simulation\modelsim\rtl_work.II'.
+# Error loading design
+vsim +altera -do spi_pro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.spi_pro_vhd_tst
+# vsim +altera -do spi_pro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.spi_pro_vhd_tst 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.spi_pro_vhd_tst(spi_pro_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.spi_pro(behave)
+# Loading work.rx_part(behave)
+# Loading work.tx_part(behave)
+# Loading work.show_part(behave)
+# do spi_pro_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying F:\Quartus II 12.0\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/show_part.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity show_part
+# -- Compiling architecture behave of show_part
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/spi_pro.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity spi_pro
+# -- Compiling architecture behave of spi_pro
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/rx_part.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity rx_part
+# -- Compiling architecture behave of rx_part
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/tx_part.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity tx_part
+# -- Compiling architecture behave of tx_part
+# 
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/simulation/modelsim/spi_pro.vht}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_pro_vhd_tst
+# -- Compiling architecture spi_pro_arch of spi_pro_vhd_tst
+# ** Warning: [4] F:/Quartus II 12.0/Project/spi_pro/simulation/modelsim/spi_pro.vht(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclone -L rtl_work -L work -voptargs="+acc"  spi_pro_vhd_tst
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclone -L rtl_work -L work -voptargs=\"+acc\" -t 1ps spi_pro_vhd_tst 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.spi_pro_vhd_tst(spi_pro_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.spi_pro(behave)
+# Loading work.rx_part(behave)
+# Loading work.tx_part(behave)
+# Loading work.show_part(behave)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do spi_pro_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying F:\Quartus II 12.0\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/show_part.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity show_part
+# -- Compiling architecture behave of show_part
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/spi_pro.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity spi_pro
+# -- Compiling architecture behave of spi_pro
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/rx_part.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity rx_part
+# -- Compiling architecture behave of rx_part
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/tx_part.vhd}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity tx_part
+# -- Compiling architecture behave of tx_part
+# 
+# vcom -93 -work work {F:/Quartus II 12.0/Project/spi_pro/simulation/modelsim/spi_pro.vht}
+# Model Technology ModelSim ALTERA vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_pro_vhd_tst
+# -- Compiling architecture spi_pro_arch of spi_pro_vhd_tst
+# ** Warning: [4] F:/Quartus II 12.0/Project/spi_pro/simulation/modelsim/spi_pro.vht(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclone -L rtl_work -L work -voptargs="+acc"  spi_pro_vhd_tst
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclone -L rtl_work -L work -voptargs=\"+acc\" -t 1ps spi_pro_vhd_tst 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.spi_pro_vhd_tst(spi_pro_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.spi_pro(behave)
+# Loading work.rx_part(behave)
+# Loading work.tx_part(behave)
+# Loading work.show_part(behave)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100000ps
+run 1000ns

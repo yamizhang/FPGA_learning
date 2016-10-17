@@ -1,0 +1,159 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\Quartus II 12.0\Project\spi_pro\simulation\modelsim
+Erx_part
+Z1 w1463662611
+Z2 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 dF:\Quartus II 12.0\Project\spi_pro\simulation\modelsim
+Z6 8F:/Quartus II 12.0/Project/spi_pro/rx_part.vhd
+Z7 FF:/Quartus II 12.0/Project/spi_pro/rx_part.vhd
+l0
+L5
+V7Ze<e:QA7Mi4oi`<ze]^B2
+Z8 OV;C;6.6d;45
+31
+Z9 o-93 -work work -O0
+Z10 tExplicit 1
+!s100 HJlmh7:55[>b]`PkF_e113
+Abehave
+R2
+R3
+R4
+DEx4 work 7 rx_part 0 22 7Ze<e:QA7Mi4oi`<ze]^B2
+l14
+L12
+VJoA?j_aJdaZ^@@@K=5Vh@0
+R8
+31
+Z11 Mx3 4 ieee 14 std_logic_1164
+Z12 Mx2 4 ieee 18 std_logic_unsigned
+Z13 Mx1 4 ieee 15 std_logic_arith
+R9
+R10
+!s100 W7H02Bog5JAO[d5K]k0?Z0
+Eshow_part
+Z14 w1463659154
+R2
+R3
+R4
+R5
+Z15 8F:/Quartus II 12.0/Project/spi_pro/show_part.vhd
+Z16 FF:/Quartus II 12.0/Project/spi_pro/show_part.vhd
+l0
+L5
+Vj>T65J536<6AiJMHm9k8[2
+R8
+31
+R9
+R10
+!s100 FW]f:eCzRBWOE^eK<22`z3
+Abehave
+R2
+R3
+R4
+DEx4 work 9 show_part 0 22 j>T65J536<6AiJMHm9k8[2
+l16
+L12
+VD[2B:_gPhzmG=8=FHd=d21
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 bEKbBAA11LoAHZ<QKdQhF0
+Espi_pro
+Z17 w1463657633
+R2
+R3
+R4
+R5
+Z18 8F:/Quartus II 12.0/Project/spi_pro/spi_pro.vhd
+Z19 FF:/Quartus II 12.0/Project/spi_pro/spi_pro.vhd
+l0
+L5
+ViTPGQ`4[cn>LO<dGf:UAg3
+R8
+31
+R9
+R10
+!s100 O3]>j>@g_SlYj6lkoimHV0
+Abehave
+R2
+R3
+R4
+DEx4 work 7 spi_pro 0 22 iTPGQ`4[cn>LO<dGf:UAg3
+l37
+L15
+V>8AfN>ABl?^GSYUJ4zDd>1
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 A>eKge>U14MmCbYjb4[=a1
+Espi_pro_vhd_tst
+Z20 w1463711681
+R4
+R5
+Z21 8F:/Quartus II 12.0/Project/spi_pro/simulation/modelsim/spi_pro.vht
+Z22 FF:/Quartus II 12.0/Project/spi_pro/simulation/modelsim/spi_pro.vht
+l0
+L30
+VOUL^Ynb9IPc>STkMc_Z6]3
+!s100 g0GHXPlzJ94eYPdcUeL023
+R8
+31
+R9
+R10
+Aspi_pro_arch
+R4
+DEx4 work 15 spi_pro_vhd_tst 0 22 OUL^Ynb9IPc>STkMc_Z6]3
+l53
+L32
+VlSlMdMzM_[MF=PTAcgZG11
+!s100 A794HnP8:XHz3G1_ID2g40
+R8
+31
+Z23 Mx1 4 ieee 14 std_logic_1164
+R9
+R10
+Etx_part
+Z24 w1463662991
+R2
+R3
+R4
+R5
+Z25 8F:/Quartus II 12.0/Project/spi_pro/tx_part.vhd
+Z26 FF:/Quartus II 12.0/Project/spi_pro/tx_part.vhd
+l0
+L5
+Va6CSMFcJ70If0NH]2goJ_2
+R8
+31
+R9
+R10
+!s100 nhaz4MN2Z25bDm2<0U17J2
+Abehave
+R2
+R3
+R4
+DEx4 work 7 tx_part 0 22 a6CSMFcJ70If0NH]2goJ_2
+l13
+L11
+V8aQWg:_^[^B=2?MCTITH]3
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 71iOM_aTOY0dK_K9>W5A63

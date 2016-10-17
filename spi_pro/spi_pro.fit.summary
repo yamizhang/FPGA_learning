@@ -1,0 +1,12 @@
+Fitter Status : Successful - Thu Aug 25 22:18:20 2016
+Quartus II 64-Bit Version : 12.0 Build 178 05/31/2012 SJ Full Version
+Revision Name : spi_pro
+Top-level Entity Name : spi_pro
+Family : Cyclone
+Device : EP1C3T100C8
+Timing Models : Final
+Total logic elements : 119 / 2,910 ( 4 % )
+Total pins : 17 / 65 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 0 / 59,904 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
